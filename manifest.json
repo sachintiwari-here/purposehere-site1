@@ -1,0 +1,18 @@
+{
+  "name": "Purpose Here — Studio",
+  "short_name": "Purpose Here",
+  "description": "Sachin Tiwari builds apps from zero — Bazaar, PurposePay, and what's next.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0C0B09",
+  "theme_color": "#0C0B09",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "assets/ph-icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

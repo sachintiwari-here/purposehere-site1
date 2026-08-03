@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bazaar: Nearby Shops — Purpose Here</title>
+<link rel="canonical" href="https://purposehere.is-a.dev/bazaar.html">
+<link rel="icon" href="assets/icon.png">
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#E85D2C">
+<link rel="apple-touch-icon" href="assets/icon.png">
+<meta name="description" content="Bazaar — bringing the market to your screen. Discover nearby shops, compare prices, order directly.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://purposehere.is-a.dev/bazaar.html">
+<meta property="og:title" content="Bazaar: Nearby Shops">
+<meta property="og:image" content="https://purposehere.is-a.dev/assets/bazaar-shop.png">
+<meta property="og:description" content="Bringing the market to your screen.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Bazaar: Nearby Shops">
+<meta name="twitter:description" content="Bringing the market to your screen.">
+<meta name="twitter:image" content="https://purposehere.is-a.dev/assets/bazaar-shop.png">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Bazaar: Nearby Shops",
+  "applicationCategory": "ShoppingApplication",
+  "operatingSystem": "Android",
+  "url": "https://purposehere.is-a.dev/bazaar.html",
+  "description": "A hyperlocal shop discovery and ordering app connecting customers to nearby kirana and neighborhood stores.",
+  "publisher": { "@type": "Organization", "name": "Purpose Here", "url": "https://purposehere.is-a.dev/" }
+}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400..900&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+<style>
+  .bz-hero{ padding:220px 32px 60px; max-width:1080px; margin:0 auto; position:relative; }
+  .bz-tagline{
+    font-family:'Fraunces',serif; font-style:italic; font-size:1.4rem; font-weight:400;
+    color:var(--orange); margin-top:8px; margin-bottom:18px;
+  }
+  .bz-hero h1{
+    font-family:'Fraunces',serif; font-weight:600; font-size:clamp(2.4rem,6vw,4.4rem);
+    line-height:1.02; max-width:680px;
+  }
+  .bz-hero p.sub{ margin-top:18px; font-size:1.05rem; line-height:1.65; max-width:540px; color:var(--paper-dim); }
+
+  .status-pill{
+    display:inline-flex; align-items:center; gap:8px;
+    font-family:'JetBrains Mono',monospace; font-size:0.74rem; font-weight:700;
+    background:var(--orange); color:#fff;
+    padding:8px 16px; border-radius:100px; margin-top:20px; margin-bottom:8px;
+  }
+  .status-pill .dot{width:6px;height:6px;border-radius:50%;background:#fff; animation:pulse 1.8s infinite;}
+  @keyframes pulse{0%,100%{opacity:1;}50%{opacity:0.3;}}
+
+  .bz-cta{ margin-top:26px; display:flex; gap:14px; flex-wrap:wrap; }
+  .shopkeeper-cta{
+    display:inline-flex; align-items:center; gap:12px; margin-top:22px;
+    background:rgba(76,175,80,0.12); border:2px solid rgba(76,175,80,0.4);
+    border-radius:12px; padding:14px 18px; font-size:0.9rem; font-weight:600;
+    color:var(--paper); transition:background .2s, transform .2s; max-width:480px;
+  }
+  .shopkeeper-cta:hover{ background:rgba(76,175,80,0.2); transform:translateY(-2px); }
+  .shopkeeper-cta .arrow{ margin-left:auto; opacity:0.7; }
+
+  .feature-list{ display:flex; flex-direction:column; gap:13px; margin-top:36px; max-width:520px; }
+  .feature-list div{ display:flex; gap:11px; align-items:flex-start; font-size:0.94rem; color:var(--paper-dim); }
+  .feature-list .tick{ color:var(--orange); font-weight:700; }
+
+  .how-grid{ display:grid; grid-template-columns:repeat(3,1fr); gap:30px; margin-top:50px; }
+  @media (max-width:860px){ .how-grid{grid-template-columns:1fr; gap:36px;} }
+  .how-step{ border-left:3px solid var(--orange); padding-left:20px; }
+  .how-num{ font-family:'Fraunces',serif; font-size:2.6rem; font-weight:700; color:var(--orange); display:block; line-height:1; }
+  .how-step h3{ font-family:'Fraunces',serif; font-size:1.25rem; font-weight:600; margin-top:10px; }
+  .how-step p{ font-size:0.92rem; color:var(--paper-dim); margin-top:8px; line-height:1.6; max-width:300px; }
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="ph-banner"><span class="p1">Purpose</span><span class="p2">Here</span></a>
+  <div class="navlinks">
+    <a href="index.html">Home</a>
+    <a href="bazaar.html" class="active">Bazaar</a>
+    <a href="index.html#faq">FAQ</a>
+    <a href="index.html#contact">Contact</a>
+  </div>
+</nav>
+
+<div class="ticker-wrap">
+  <div class="ticker-track">
+    <span><b>Bazaar</b> · KIRANA · GROCERY · CHAI TAPRI · MEDICAL STORE · STATIONERY · MORE SHOPS SOON · <b>Bazaar</b> · KIRANA · GROCERY · CHAI TAPRI · MEDICAL STORE · STATIONERY · MORE SHOPS SOON</span>
+    <span><b>Bazaar</b> · KIRANA · GROCERY · CHAI TAPRI · MEDICAL STORE · STATIONERY · MORE SHOPS SOON · <b>Bazaar</b> · KIRANA · GROCERY · CHAI TAPRI · MEDICAL STORE · STATIONERY · MORE SHOPS SOON</span>
+  </div>
+</div>
+
+<div class="bz-hero">
+  <span class="eyebrow"><b>OUR FIRST PRODUCT</b></span>
+  <h1>Bazaar</h1>
+  <div class="bz-tagline">"Bringing the market to your screen."</div>
+  <p class="sub">Local shopkeepers have no presence beyond their shutter. Bazaar gives them a digital storefront, and gives customers a way to discover what's actually in stock nearby — without scrolling past ads for a shop three cities away.</p>
+
+  <div class="status-pill"><span class="dot"></span>LIVE · ONBOARDING FIRST SHOPKEEPERS NOW</div>
+
+  <div class="bz-cta">
+    <a href="https://drive.google.com/uc?export=download&id=1cqMkyef087T2KyIrzPQ7swjCarUPVy2G" class="btn btn-orange">Download APK ↓</a>
+    <a href="https://instagram.com/sachintiwari_here" class="btn btn-outline">Follow the Build</a>
+  </div>
+
+  <a href="https://wa.me/919910377585?text=Hi%2C%20I%20want%20to%20list%20my%20shop%20on%20Bazaar" class="shopkeeper-cta">
+    <span>💬 Have a shop? List it on Bazaar — message on WhatsApp</span>
+    <span class="arrow">→</span>
+  </a>
+</div>
+
+<section id="products">
+  <div class="wrap">
+    <span class="big-divider" style="color:var(--orange); opacity:0.35;">01</span>
+    <h2 class="title" style="margin-top:8px;">The actual app — customer and vendor side.</h2>
+    <p class="section-sub">Real screens from the real build. Not mockups.</p>
+
+    <div class="bento">
+      <div class="bento-item wide"><img src="assets/screenshots/1000027518.png" alt="Bazaar onboarding screen — choose Customer or Shop"></div>
+      <div class="bento-item"><img src="assets/screenshots/1000027519.png" alt="Bazaar home screen — nearby shops list"></div>
+      <div class="bento-item"><img src="assets/screenshots/1000027520.png" alt="Bazaar shop profile — rate list"></div>
+      <div class="bento-item"><img src="assets/screenshots/1000027530.png" alt="Bazaar order screen — cash on pickup or UPI"></div>
+      <div class="bento-item"><img src="assets/screenshots/1000027526.png" alt="Bazaar vendor dashboard"></div>
+      <div class="bento-item"><img src="assets/screenshots/1000027521.png" alt="Bazaar shop info — call and WhatsApp"></div>
+      <div class="bento-item wide"><img src="assets/screenshots/1000027527.png" alt="Bazaar vendor products screen"></div>
+      <div class="bento-item"><img src="assets/screenshots/1000027528.png" alt="Bazaar vendor incoming order"></div>
+    </div>
+
+    <div class="feature-list">
+      <div><span class="tick">＋</span> Dual interface — shop owners manage stock, customers browse and order</div>
+      <div><span class="tick">＋</span> Verified-shop tick so customers know who's real</div>
+      <div><span class="tick">＋</span> Pay on pickup or by UPI, no middleman</div>
+    </div>
+  </div>
+</section>
+
+<section class="section-paper tex-dots-light" id="how">
+  <div class="wrap">
+    <span class="big-divider" style="color:var(--navy); opacity:0.4;">02</span>
+    <h2 class="title" style="margin-top:8px;">Three steps. No app-store search. No calling around.</h2>
+    <div class="how-grid">
+      <div class="how-step">
+        <span class="how-num">01</span>
+        <h3>Find shops nearby</h3>
+        <p>Open Bazaar and see which local shops are around you and open right now.</p>
+      </div>
+      <div class="how-step">
+        <span class="how-num">02</span>
+        <h3>Compare prices</h3>
+        <p>Check the rate list before you walk in, or compare across nearby shops.</p>
+      </div>
+      <div class="how-step">
+        <span class="how-num">03</span>
+        <h3>Order directly</h3>
+        <p>Place the order from the app — pay on pickup or by UPI, no middleman.</p>
+      </div>
+    </div>
+
+    <div class="tagcloud" style="margin-top:50px;">
+      <span>DELHI · FIRST MARKET</span><span>FREE FOR CUSTOMERS</span><span>NO PLAY STORE YET · DIRECT APK</span>
+    </div>
+  </div>
+</section>
+
+<footer id="contact">
+  <div class="foot-grid">
+    <a href="index.html" class="ph-banner"><span class="p1">Purpose</span><span class="p2">Here</span></a>
+    <div class="foot-links">
+      <a href="https://instagram.com/sachintiwari_here">Instagram</a>
+      <a href="index.html#faq">FAQ</a>
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="terms.html">Terms of Service</a>
+    </div>
+  </div>
+  <div class="copyright">© 2026 PURPOSE HERE — GIVING IDEAS A PURPOSE.</div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
